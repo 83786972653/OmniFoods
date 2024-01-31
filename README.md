@@ -30,50 +30,45 @@
 
 
  }
-   
- 
-
  .img1{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
-          
-        .g1{
+.g1{
           display: grid;
           grid-template-columns: auto;
           grid-column-gap: 10px;
           grid-row-gap: 10px;
        margin-left: 70px;
-        }
-        .g2{
+    }
+.g2{
           display: flex;
           flex-direction: row;
           
-        }
-        #t2{
+}
+#t2{
           background-color: #fdf2e9;
           height: 800px;
-        }
+    }
         
-  table{
+table{
     width:700px;
-  }
-  .d1{
+    }
+.d1{
     width:400px;
     height: 750px;
     border: solid #cf711f 1px;
     border-radius: 30px;
   margin-left: 300px;
-  }
-  .d2{
+}
+.d2{
     width:400px;
     height: 750px;
-  
     border-radius: 30px;
     align-items: center;
     background-color:white;
   }
-  #dt1{
+#dt1{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -93,28 +88,26 @@ height:400px;
   margin-left: 300px;
 
 }
-
-    </style>
+</style>
 </head>
 <body>
   <div id="start" style="background-color:#ffd;">
- 
-<div class="nav" style="width: 1500px;">
-        <ul type="nutrition-outline"><li><img src="omnifood-logo.png" style="width: 124px;height: 22px;padding-left:50px"></li>
+      <div class="nav" style="width: 1500px;">
+          <ul type="nutrition-outline"><li><img src="omnifood-logo.png" style="width: 124px;height: 22px;padding-left:50px"></li>
+              <li style="float:right"><b href="#free" style="border:white;background-color:#cf711f;width:40px;height: 70px;border-radius: 10px;color:
+                  white;padding:20px;font-size: 20px;text-decoration:none">Try for free</b></li>
+              <li style="float:right"> <b href="#dt2" style="border: white;font-size:  30px;text-decoration:none;font-family: Arial Narrow Bold;color:black">Pricing</b></li>
+              <li style="float:right;margin-left:60px"> 
+                  <b href="#dt3" style="border: white;font-size: 30px;text-decoration:none;font-family:Arial Narrow Bold;color: black">Meals</b></li>
+              <li style="float:right;margin-left:60px"> <b href="#t2" style="border: white;font-size: 30px;text-decoration:none;font-family:Arial Narrow
+                  Bold;color:black">Testimonials</b></li>
+              <li style="float:right;margin-left:60px"> <b href="#dt4" style="border: white;font-size: 30px;text-decoration:none;font-family:Arial Narrow
+                  Bold;color:black">How it works</b></li>
+        </ul>
+    </div>
             
-            <li style="float:right"><b href="#free" style="border:white;background-color:#cf711f;width:40px;height: 70px;border-radius: 10px;color: white;padding:20px;font-size: 20px;text-decoration:none">Try for free</b></li>
-
-            <li style="float:right"> <b href="#dt2" style="border: white;font-size:  30px;text-decoration:none;font-family: Arial Narrow Bold;color:black">Pricing</b></li>
-            <li style="float:right;margin-left:60px">  <b href="#dt3" style="border: white;font-size: 30px;text-decoration:none;font-family:Arial Narrow Bold;color: black">Meals</b></li>
-            <li style="float:right;margin-left:60px"> <b href="#t2" style="border: white;font-size: 30px;text-decoration:none;font-family:Arial Narrow Bold;color: black">Testimonials</b></li>
-            <li style="float:right;margin-left:60px"> <b href="#dt4" style="border: white;font-size: 30px;text-decoration:none;font-family:Arial Narrow Bold;color: black">How it works</b></li>
-            </ul>
-            </div>
             
-            
-            <table>
-                <tr>
-                <td>
+           
         
      
             <div class="m1">
@@ -202,8 +195,8 @@ make you eat healthy again. Tailored to your personal tastes<br>
         </tr>
 
         <tr>
-            <td><div> <h1><p style="font-size:90px;color:grey;font-family:Rubik sans-serif;margin-left:200px;margin-bottom: 0px;">03</p></h1><div>
-          <div> <p style="font-size:40px;font-family:Rubik sans-serif;margin-left:200px;margin-bottom:0px;">Tell us what you like (and what not)</p></div>
+            <td><div> <h1><p style="font-size:90px;color:grey;font-family:Rubik sans-serif;margin-left:200px;margin-bottom: 0px">03</p></h1><div>
+          <div> <p style="font-size:40px;font-family:Rubik sans-serif;margin-left:200px;margin-bottom:0px">Tell us what you like (and what not)</p></div>
             <div><pre style="font-size:20px;font-family: Rubik sans-serif;margin-left:170px;color:grey">
                 Never again waste time thinking about what to eat! Omnifood AI <br>
                 will create a 100% personalized weekly meal plan just for you. It<br>
@@ -211,7 +204,7 @@ make you eat healthy again. Tailored to your personal tastes<br>
                matter what diet you follow!</pre></div></td>
         
              
-               <td align="center"><div style="border:none;border-radius:50%;width:300px;height:300px;background:radial-gradient(#ffb38a 50%,	#ffd7b5 80%);;"><img src="https://omnifood.dev/img/app/app-screen-2.png" style =" width:200px;height:400px;margin-right:30px;margin-left: 35px;"></div></td>
+               <td align="center"><div style="border:none;border-radius:50%;width:300px;height:300px;background:radial-gradient(#ffb38a 50%,#ffd7b5 80%)"><img src="https://omnifood.dev/img/app/app-screen-2.png" style =" width:200px;height:400px;margin-right:30px;margin-left: 35px"></div></td>
     </table>
      
     </div><br><br><br><br>
@@ -222,16 +215,16 @@ make you eat healthy again. Tailored to your personal tastes<br>
 
 <center><div><h3 style="color: #cf711f; margin-bottom: 0px;">MEALS</h3></div></center>
   <center>  <div><p style="font-size:50px;font-weight: bolder;margin-top:0px;font-family: Rubik sans-serif">Omnifood AI chooses from 5,000+ recipes</p></div></center>
-</div>  <!-- first part div-->
+</div>  
 
  
-<div  style="display: flex;flex-direction: row; justify-content: center;">
-  <div style="display: flex;flex-direction:column;margin-right: 50px;"> 
-<div><img src="https://omnifood.dev/img/meals/meal-1.jpg" style=" width: 300px;height: 350px;border-top-right-radius: 20px;border-top-left-radius: 20px;"></div>
-<div style="border:2px rgba(245, 245, 245, 0.368);width:300px;height:230px;background-color:rgba(245, 245, 245, 0.753);">
-  <h4 style="border:none;background-color: green;border-radius:30px;width:90px;margin-bottom: 10px;">vegeterian</h4>
- <h2 style="margin-left: 40px;"> Japanese Gyozas</h2>
-<h3  style="margin-left: 40px;">650 calories</h3>
+<div  style="display: flex;flex-direction: row; justify-content: center">
+  <div style="display: flex;flex-direction:column;margin-right: 50px"> 
+<div><img src="https://omnifood.dev/img/meals/meal-1.jpg" style=" width: 300px;height: 350px;border-top-right-radius: 20px;border-top-left-radius: 20px"></div>
+<div style="border:2px rgba(245, 245, 245, 0.368);width:300px;height:230px;background-color:rgba(245, 245, 245, 0.753)">
+  <h4 style="border:none;background-color: green;border-radius:30px;width:90px;margin-bottom: 10px">vegeterian</h4>
+ <h2 style="margin-left: 40px"> Japanese Gyozas</h2>
+<h3  style="margin-left: 40px">650 calories</h3>
  <h3  style="margin-left: 40px">Nutricore ® 74</h3>
  <h3  style="margin-left: 40px">4.9 rating (537)</h3>
  
@@ -240,14 +233,14 @@ make you eat healthy again. Tailored to your personal tastes<br>
 
  </div>
 
- <div style="display: flex;flex-direction:column;margin-left: 40px;"> 
+ <div style="display: flex;flex-direction:column;margin-left: 40px"> 
 
 <div><img src="https://omnifood.dev/img/meals/meal-2.jpg" style=" width: 300px;height: 350px;border-top-right-radius: 20px;border-top-left-radius: 20px"></div>
 
-<div style="border:2px rgba(245, 245, 245, 0.368);width:300px;height:230px;background-color:rgba(245, 245, 245, 0.753);">
-  <h4 style="border:none;background-color: green;border-radius:30px;width:90px;margin-bottom: 10px;">vegeterian</h4>
- <h2 style="margin-left: 40px;"> Japanese Gyozas</h2>
-<h3  style="margin-left: 40px;">650 calories</h3>
+<div style="border:2px rgba(245, 245, 245, 0.368);width:300px;height:230px;background-color:rgba(245, 245, 245, 0.753)">
+  <h4 style="border:none;background-color: green;border-radius:30px;width:90px;margin-bottom: 10px">vegeterian</h4>
+ <h2 style="margin-left: 40px"> Japanese Gyozas</h2>
+<h3  style="margin-left: 40px">650 calories</h3>
  <h3  style="margin-left: 40px">Nutricore ® 74</h3>
  <h3  style="margin-left: 40px">4.9 rating (537)</h3>
  
